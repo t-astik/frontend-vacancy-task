@@ -1,0 +1,29 @@
+.container {
+  width: 100%;    
+  border-top-left-radius: 34px;
+  background-color: #F7F7FB;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 160px;
+  margin-top: 99px;  
+}
+
+.title__text {
+  left: 0px;
+  top: calc(50% - 43px/2);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+} 
+
+.text {
+  margin-top: 140px;
+  margin-left: 426px; 
+}
+  

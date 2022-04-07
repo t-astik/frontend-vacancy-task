@@ -1,0 +1,176 @@
+.token {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 8px;
+  justify-content: space-between;
+  margin-right: 128px;
+  margin-left: 128px;
+}
+
+.token__container {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
+.token__body {
+  display: flex;
+  flex: 1;
+}
+
+.token__section {
+  display: flex;
+  width: 23%;
+}
+
+.token__id {
+  margin-right: 27px;
+  color: #93949D;
+  width: 20px;
+  height: 22px;
+  align-self: center;
+}
+
+.token__toggler {
+  border: none;
+  background: white;
+}
+
+.token__toggler_isActive img {
+  transform: rotate(180deg);
+}
+
+.meta {
+  display: flex;
+  margin-right: 50px;
+  justify-content: center;
+}
+
+.meta__badge {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.meta__badge:active div {
+  color: black;
+}
+
+.meta__badge:active .sumbol {
+  color :#6347F5;
+}
+
+.symbol {
+  color :#6347F5;
+  font-size: 15px;
+}
+
+.meta__logo {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column ;
+  color: #6347F5;
+  justify-content: center;
+}
+
+.priceChanges {
+  width: 100%;
+  display: flex;
+}
+
+.price__change {
+  margin-right: 5px;
+  margin-bottom: 2px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.point {
+  margin-right: 5px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #93949D;
+}
+
+.price__change_positive {
+  color: #30BF8C;
+} 
+
+.price__change_negative {
+  color: #FF647C;
+}
+  
+.price__change_zero {
+  color: #93949D;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+}
+
+.volume_value {
+  margin-right: 16px;
+}
+
+.volumeChangePercentage {
+  width: 100%;
+  display: flex;
+  color: #6347F5;
+}
+
+.tvl {
+  display: flex;
+  align-items: center;
+}
+
+.tvl_value {
+  margin-right: 16px;
+}
+
+.tvlChangePercentage {
+  width: 100%;
+  display: flex;
+  color: #6347F5;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+}
+
+.users_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.token__description {
+  margin-top: 24px;
+}
+
+.description__text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #5D5E6C;
+}
