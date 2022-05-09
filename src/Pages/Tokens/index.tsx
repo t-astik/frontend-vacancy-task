@@ -45,6 +45,7 @@ const Tokens = () => {
       {filteredTokens.map((token) => (
         <Token token={token}/>
       ))}
+      <p></p>
     </div>
   )
 }
